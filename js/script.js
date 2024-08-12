@@ -13,15 +13,18 @@ setTimeout(() => {
 
 }
 
-// const loop = setInterval(() => {
+const loop = setInterval(() => {
 
-// const batomPosition = batom.offsetLeft
+const batomPosition = batom.offsetLeft
+const personagemPosition = +window.getComputedStyle(personagem).bottom.replace('px', '')
 
-// if (batomPosition <= 50) {
-//     batom.style.animation = 'none'
-//     batom.style.left = `${batomPosition}px`
-// }
+console.log(personagemPosition)
 
-// }, 10)
-
+if (batomPosition <= 100 && batomPosition > 0 && personagemPosition < 70) {
+    batom.style.animation = 'none'
+    batom.style.left = `${batomPosition}px`
+}
+ 
+}, 10)   
+    
 document;addEventListener('keydown', jump)
