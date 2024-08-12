@@ -16,12 +16,12 @@
 .batom {
     position: absolute;
     bottom: 0;
-    width: 50px;
+    width: 30px;
 animation: batom-animation 2s infinite linear;
 }
 
 .personagem {
-    width: 70px;
+    width: 120px;
     position: absolute;
     bottom: 0;
 }
