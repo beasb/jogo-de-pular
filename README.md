@@ -18,7 +18,7 @@ Este é um jogo simples inspirado no Mario, criado como projeto de aprendizado. 
 
 Você pode jogar o jogo acessando o link abaixo:
 
-[https://seu-usuario.github.io/seu-repositorio/](https://beasb.github.io/jogo-de-pular/)
+[https://beasb.github.io/jogo-de-pular/](https://beasb.github.io/jogo-de-pular/)
 
 ---
 
