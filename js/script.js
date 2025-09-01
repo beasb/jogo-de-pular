@@ -28,11 +28,12 @@ if (batomPosition <= 100 && batomPosition > 0 && personagemPosition < 70) {
     batom.style.left = `${batomPosition}px`
 
     personagem.style.animation = 'none'
-    personagem.style.bottom = `${personagemPosition}px`
+    // personagem.style.bottom = `${personagemPosition}px`
+    personagem.style.bottom = `250px`
 
-    personagem.src = './img/gameover.png'
+    personagem.src = './img/gameoverpink.gif'
     personagem.style.width = '200px'
-    personagem.style.marginLeft = '450px'
+    personagem.style.marginLeft = '550px'
 
     clearInterval(loop)
 }
